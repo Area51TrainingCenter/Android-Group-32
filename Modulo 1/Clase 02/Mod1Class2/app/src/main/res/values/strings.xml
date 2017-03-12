@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mod1Class2</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="procesar">Procesar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="direccion">Dirección</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="alerta">Recibir Alertas</string>
+    <string name="cerrar_todo">Cerrar Todo</string>
+</resources>
