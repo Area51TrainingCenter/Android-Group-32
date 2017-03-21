@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jcodee.mod1class3.MainActivity">
+
+    <Spinner
+        android:id="@+id/spPeliculas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbBuena"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:checked="true"
+            android:text="@string/buena" />
+
+        <RadioButton
+            android:id="@+id/rbMala"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="@string/mala" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etCritica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/critica" />
+
+    <CheckBox
+        android:id="@+id/cbTerminos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/terminos" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/registro"
+            android:textColor="@android:color/white" />
+        <!--  -->
+
+        <Button
+            android:id="@+id/btnListado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:text="@string/listado"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

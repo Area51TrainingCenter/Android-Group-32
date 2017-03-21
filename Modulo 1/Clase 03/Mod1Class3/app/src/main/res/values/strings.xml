@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mod1Class3</string>
+    <string name="listado">Listado</string>
+    <string name="registro">Registro</string>
+    <string name="critica">Critica</string>
+    <string name="terminos">Terminos</string>
+    <string name="mala">MAla</string>
+    <string name="buena">Buena</string>
+    <string name="peliculas">Peliculas</string>
+    <string name="buscar">Buscar</string>
+</resources>
