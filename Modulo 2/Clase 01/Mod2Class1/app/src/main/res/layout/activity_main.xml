@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jcodee.mod2class1.MainActivity">
+
+    <Spinner
+        android:id="@+id/spCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titulo"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etNoticia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/noticia"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agregar" />
+
+        <Button
+            android:id="@+id/btnVisualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/visualizar" />
+    </LinearLayout>
+</LinearLayout>
