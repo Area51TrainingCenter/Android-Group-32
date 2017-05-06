@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mod2Class2</string>
+    <string name="text_numero">Número</string>
+    <string name="text_cvv">CVV</string>
+    <string name="text_fecha">Fecha</string>
+    <string name="registrar">Registrar</string>
+</resources>
