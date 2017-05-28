@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mod3Class2</string>
+    <string name="titulo">Titulo</string>
+    <string name="descripcion">Descripción</string>
+    <string name="longitud">Longitud</string>
+    <string name="latitud">Latitud</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="registrar">Registrar</string>
+
+    <string name="api_key">AIzaSyDIsSpDRXw_PQoh-PqzzgGUkTX4HbYNOrU</string>
+    <string name="buscar">Buscar</string>
+</resources>
