@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mod3Class3</string>
+    <string name="buscar">Buscar</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="direccion">Dirección</string>
+
+    <string name="api_key">AIzaSyAm9g0KpeWfvCje8QVUwus6tyna7L8Xn84</string>
+</resources>
